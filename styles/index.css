@@ -7,20 +7,23 @@ body {
   /*color: #1d3557;*/
   color: #FA7070;
   background-color: #ffebee;
+  font-size: 110%;
+  /*max-width: 1240px;*/
   /*background-color: #f1faee;*/
 }
 
-header {
+/*header {
   line-height: 1.2;
   max-width: none;
   text-align: center;
-}
+}*/
 
 main {
   margin: 0 auto;
   padding: 2em 1em;
   max-width: 50em;
   text-align: center;
+  overflow: auto;
 }
 
 main p {
@@ -76,13 +79,13 @@ footer {
 }
 
 .big-break {
-  margin-top: 32em;
+  display: inline-block;
+  margin-top: 512px;
   width: 8em;
 }
 
 .bird {
   width:  10em;
-
 }
 
 .break {
@@ -96,10 +99,11 @@ footer {
 .memory {
   padding-top: 3em;
   text-align: center;
+  margin-left: 0 auto;
 }
 
 .pic {
-  max-width: 30em;
+  max-width: 75%;
 }
 
 .subheading {
