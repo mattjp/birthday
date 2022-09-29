@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  padding: 0;
+  /*color: #1d3557;*/
+  color: #FA7070;
+  background-color: #ffebee;
+  /*background-color: #f1faee;*/
+}
+
+header {
+  line-height: 1.2;
+  max-width: none;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  padding: 2em 1em;
+  max-width: 50em;
+  text-align: center;
+}
+
+main p {
+  margin-top: 0;
+  margin-bottom: 0;
+  /*color: #FFD1D1;*/
+}
+
+h1, h2 {
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h1 a {
+  color: #FA7070;
+}
+
+h1 a:hover {
+  color: #ffebee;
+  background-color: #FA7070;
+}
+
+footer {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.abba {
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 140%;
+  text-decoration: none;
+}
+
+.big-break {
+  margin-top: 32em;
+  width: 8em;
+}
+
+.bird {
+  width:  10em;
+
+}
+
+.break {
+  width: 8em;
+}
+
+.header {
+  text-align: center;
+}
+
+.memory {
+  padding-top: 3em;
+  text-align: center;
+}
+
+.pic {
+  max-width: 30em;
+}
+
+.subheading {
+  font-style: italic;
+  font-size: 90%;
+}
